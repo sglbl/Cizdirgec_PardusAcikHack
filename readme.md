@@ -19,11 +19,11 @@ Programda amaç, ekran görüntüsünü alarak, üzerine yazı yazmayı gerçekl
 
 - Pardus uzerindeki xfce4-screenshooter terminal uygulamasını kullanır.
 - Eger sahip degilseniz şu komut ile indirebilirsiniz
-` sudo apt install xfce4-screenshooter
+` sudo apt install xfce4-screenshooter`
 
 - Hali hazırda Pardus Xfce masaüstü sürümünü kullananlar icin
 
-- `git clone https://github.com/sglbl/Cizdirgec_PardusAcikHack.git
+- `git clone https://github.com/sglbl/Cizdirgec_PardusAcikHack.git`
 - `cd Cizdirgec_PardusAcikHack`
 - `chmod +x main.py`
 - `./main.py`
