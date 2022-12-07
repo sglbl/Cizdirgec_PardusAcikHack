@@ -1,31 +1,31 @@
 # Çizdirgeç
 
-Ekip olarak yapılmış küçük bir Pardus XFCE programıdır. Pardus GNOME için, 
-xfce4-screenshooter uygulaması gerekebilir. Test edilmemiştir.
+This is a Pardus XFCE application made as a team. 
 
-## Amacı
+<img src="https://www.pardus.org.tr/wp-content/uploads/2019/12/parduslogo.png" alt="a" width="300"/>
 
-Program, akıllı tahta uygulaması olarak, geliştirilmek üzere yola çıkılmıştır.
-Programda amaç, ekran görüntüsünü alarak, üzerine yazı yazmayı gerçekleştirmektir.
+## Purpose
 
-## Özellikler 
+The program has set out to be developed as a smart board application.
+The purpose of the program is to take a screenshot and write on it.
 
-- Programi calistirip istediginiz bolgenin ekran ciktisini alabilme
-- Alınan ekran bölümüne istediğinizi çizme
-- Çizilen hali kaydetme
-- Sağ tık ile çizilen alanı temizleme
+## Features
+- Running the program and getting the screen output of the region you want
+- Draw whatever you want on the imported screen section
+- Save the drawn state
+- Cleaning the drawn area with a right click
 
-## Nasıl Çalıştırılır?
+## How to Operate?
 
-- Pardus uzerindeki xfce4-screenshooter terminal uygulamasını kullanır.
-- Eger sahip degilseniz şu komut ile indirebilirsiniz
+- It uses the xfce4-screenshooter terminal application on Pardus.
+- If you don't have it, you can download it with the command
 ` sudo apt install xfce4-screenshooter`
 
-- Hali hazırda Pardus Xfce masaüstü sürümünü kullananlar icin
+- For those who are already using the Pardus Xfce desktop version
 
 - `git clone https://github.com/sglbl/Cizdirgec_PardusAcikHack.git`
 - `cd Cizdirgec_PardusAcikHack`
 - `chmod +x main.py`
 - `./main.py`
 
-Bu komutları kullanarak, programı çalıştırabilirsiniz.
+Using these commands, you can run the program.
